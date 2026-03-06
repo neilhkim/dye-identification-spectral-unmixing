@@ -23,25 +23,8 @@ The notebook performs a sequential decision pipeline:
 2. Estimate dye contributions using non-negative least squares (NNLS).
 3. Enumerate all valid models (1-dye and 2-dye combinations).
 4. Select the best model using Bayesian Information Criterion (BIC).
-5. Validate assignments using goodness-of-fit (\(R^2\)).
+5. Validate assignments using goodness-of-fit (R^2).
 
-The signal model is
-
-\[
-y = R x + \epsilon
-\]
-
-where:
-
-- \(y\) — observed fluorescence vector (8 channels)  
-- \(R\) — reference dye spectra matrix  
-- \(x\) — dye intensities  
-- \(\epsilon\) — measurement noise  
-
-Physical constraints:
-
-- dye intensities must be non-negative  
-- each compartment contains **at most two dyes**
 
 ---
 
