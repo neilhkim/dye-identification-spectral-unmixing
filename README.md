@@ -1,6 +1,6 @@
 # Dye Identification from Spectral Intensity Data
 
-[Open in Google Colab](https://colab.research.google.com/github/neilhkim/dye-identification-spectral-unmixing/blob/main/notebook.ipynb)
+[Open in Google Colab](https://colab.research.google.com/github/neilhkim/dye-identification-spectral-unmixing/blob/main/notebook.ipynb) (tested)
 
 Constrained spectral unmixing of 8-channel fluorescence data to identify whether each PCR compartment contains no dye, one dye, or two dyes.
 
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ---
 
-## Run
+## Run (tested)
 
 Launch the notebook:
 
